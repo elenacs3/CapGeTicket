@@ -1,0 +1,8 @@
+spring.application.name=RestEventos
+spring.cloud.config.uri=http://localhost:2222
+spring.config.import=optional:configserver:
+logging.level.org.springframework.web.servlet.mvc.method.annotation=TRACE
+springdoc.swagger-ui.path=/openapi/swagger-ui.html
+springdoc.api-docs.path=/openapi/v3/api-docs
+springdoc.packagesToScan=com.asbnotebook.example.controller
+springdoc.pathsToMatch=/**

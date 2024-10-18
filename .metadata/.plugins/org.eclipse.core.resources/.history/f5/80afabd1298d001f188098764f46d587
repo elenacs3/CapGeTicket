@@ -1,0 +1,5 @@
+package com.capgeticket.resteventos.config;
+
+public class OpenApiConfig {
+
+}
